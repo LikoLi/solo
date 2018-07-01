@@ -19,6 +19,6 @@ RUN chmod 777 /opt/b3log/solo/entrypoint.sh
 
 VOLUME ["/opt/b3log/backup/"]
 
-EXPOSE 8080
+EXPOSE 8888
 
 ENTRYPOINT [ "/opt/b3log/solo/entrypoint.sh" ]
